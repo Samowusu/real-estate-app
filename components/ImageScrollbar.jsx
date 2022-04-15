@@ -26,7 +26,7 @@ const RightArrow = () => {
   const { scrollNext } = useContext(VisibilityContext);
 
   return (
-    <Flex justifyContent={"center"} alignItems={"center"} marginRight="1">
+    <Flex justifyContent={"center"} alignItems={"center"} marginLeft="1">
       <Icon
         as={FaArrowAltCircleRight}
         onClick={() => {
